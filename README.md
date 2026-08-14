@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/AdarshDamarla-DataEngineer-Git?tab=repositories"><img src="https://img.shields.io/badge/Explore-My%20Projects-181717?style=for-the-badge&logo=github" alt="GitHub projects" /></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-Let's%20Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:d29adarsh@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ## About me
