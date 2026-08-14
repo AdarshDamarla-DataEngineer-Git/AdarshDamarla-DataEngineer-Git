@@ -39,11 +39,11 @@
       <path d="M3 18 v37 c0 5 10 9 22 9s22-4 22-9V18 M3 36c0 5 10 9 22 9s22-4 22-9"/>
     </g>
 
-    <g transform="translate(102 31)" stroke="#fb6b47" stroke-width="4">
+    <g transform="translate(120 40)" stroke="#fb6b47" stroke-width="4">
       <path d="M4 18 29 4l25 14-25 14L4 18Z M4 32l25 14 25-14 M4 46l25 14 25-14"/>
     </g>
 
-    <g transform="translate(207 34)" stroke="#34d399" stroke-width="4">
+    <g transform="translate(215 34)" stroke="#34d399" stroke-width="4">
       <path d="M5 18c0-7 11-13 25-13s25 6 25 13v39c0 7-11 13-25 13S5 64 5 57V18Z"/>
       <path d="M5 18c0 7 11 13 25 13s25-6 25-13 M5 38c0 7 11 13 25 13s25-6 25-13"/>
     </g>
