@@ -34,7 +34,7 @@
     <path d="M25 77 H318" stroke="url(#line)" stroke-width="5" filter="url(#glow)"/>
     <path d="M98 67 l12 10 -12 10 M197 67 l12 10 -12 10 M291 67 l12 10 -12 10" stroke="#e2e8f0" stroke-width="3"/>
 
-    <g transform="translate(0 38)" stroke="#38bdf8" stroke-width="4">
+    <g transform="translate(30 38)" stroke="#38bdf8" stroke-width="4">
       <ellipse cx="25" cy="18" rx="22" ry="9"/>
       <path d="M3 18 v37 c0 5 10 9 22 9s22-4 22-9V18 M3 36c0 5 10 9 22 9s22-4 22-9"/>
     </g>
