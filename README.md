@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Cloud & Big Data Engineer</strong><br/>
-  Building scalable batch, streaming, and lakehouse platforms with Spark, Kafka, Databricks, Airflow, dbt, and cloud-native services.
+  Cloud Data Engineer building reliable batch, streaming, and lakehouse platforms that turn source data into analytics-ready models.
 </p>
 
 <p align="center">
@@ -16,64 +16,31 @@
 
 ## About me
 
-I design and build end-to-end cloud data platforms using distributed processing, event streaming, workflow orchestration, and lakehouse patterns. I have experience with AWS and Azure and working knowledge of Google Cloud data services, including Dataproc. My public projects currently demonstrate many of these patterns through Databricks and Azure implementations, while my broader cloud knowledge covers comparable ingestion, storage, processing, streaming, warehouse, and serverless services across AWS and Google Cloud.
+I design and build end-to-end cloud data platforms for reliable batch and real-time analytics using Azure, AWS, Google Cloud, Databricks, Spark, Kafka, Airflow, and dbt—from data ingestion and orchestration to governed lakehouse layers and analytics-ready models.
 
-My portfolio focuses on practical engineering patterns:
+## What I build
 
-- Moving data from operational systems, event brokers, files, and APIs into governed cloud storage
-- Processing batch and streaming data with PySpark and Spark Structured Streaming
-- Building Bronze, Silver, and Gold layers with Delta Lake and Unity Catalog
-- Maintaining historical state with CDC and SCD Type 2
-- Orchestrating cross-platform workflows with Azure Data Factory and Apache Airflow
-- Publishing analytics-ready facts, dimensions, and serverless SQL datasets
+- Metadata-driven ingestion from databases, files, APIs, and event streams
+- Batch and streaming transformations with PySpark and Structured Streaming
+- Governed Bronze, Silver, and Gold lakehouse layers using Delta Lake and Unity Catalog
+- Incremental processing, CDC, and SCD Type 1/2 history management
+- Cross-platform orchestration with Azure Data Factory and Apache Airflow
+- Analytics-ready facts, dimensions, and serverless SQL datasets
 
 ## Featured projects
 
-### 🎧 [Spotify Azure Incremental Lakehouse](https://github.com/AdarshDamarla-DataEngineer-Git/Spotify-Azure-Project)
+| Project | Engineering highlights | Stack |
+| --- | --- | --- |
+| [🎧 Spotify Azure Incremental Lakehouse](https://github.com/AdarshDamarla-DataEngineer-Git/Spotify-Azure-Project) | Metadata-driven incremental ingestion from Azure SQL to ADLS Gen2; Auto Loader processing; SCD Type 2 dimensions and a Type 1 streaming fact | ADF, ADLS Gen2, Databricks, PySpark, Delta Lake |
+| [🚕 Real-Time Uber Ride Lakehouse](https://github.com/AdarshDamarla-DataEngineer-Git/Uber-Project) | Streams FastAPI-generated ride events through Event Hubs; unifies historical and real-time data; publishes an enriched OBT and SCD-managed dimensional model | FastAPI, Event Hubs, Structured Streaming, Lakeflow, Unity Catalog |
+| [🌬️ Airflow + dbt + Databricks](https://github.com/AdarshDamarla-DataEngineer-Git/Airflow-DBT-Databricks) | Airflow 3 orchestrates Databricks ingestion and a dependency-aware dbt graph using deferrable execution and a containerized Celery platform | Airflow, dbt, Databricks, Celery, Redis, PostgreSQL, Docker |
+| [🛰️ NASA GCN Fermi Streaming Pipeline](https://github.com/AdarshDamarla-DataEngineer-Git/Kafka-Databricks-Nasa) | OAuth-authenticated Kafka ingestion of NASA gamma-ray burst notices; native Spark parsing; governed analytical snowflake schema | Kafka, OAuth 2.0, PySpark, Databricks, Delta Lake |
 
-Metadata-driven incremental ingestion from Azure SQL through Azure Data Factory into ADLS Gen2. Databricks Auto Loader and PySpark publish Delta Silver tables, followed by SCD Type 2 dimensions and a Type 1 streaming fact.
+### More portfolio work
 
-`Azure SQL` `Azure Data Factory` `ADLS Gen2` `Databricks` `Auto Loader` `PySpark` `Delta Lake` `SCD2`
+- [E-commerce Databricks Pipeline](https://github.com/AdarshDamarla-DataEngineer-Git/Ecommerce-Databricks-Pipeline) — Six data domains processed through Bronze, Silver, and Gold layers with data-quality expectations, CDC, SCD Type 2, and dimensional modeling.
+- [Olist Azure Big Data Platform](https://github.com/AdarshDamarla-DataEngineer-Git/BigDataProjects) — Approximately 1.56 million marketplace records ingested from HTTP, SQL, and MongoDB, transformed with PySpark, and served through Synapse Serverless SQL.
 
----
-
-### 🚕 [Real-Time Uber Ride Lakehouse](https://github.com/AdarshDamarla-DataEngineer-Git/Uber-Project)
-
-FastAPI-generated ride events stream through Azure Event Hubs into Databricks. Lakeflow append flows unify historical and real-time data before publishing an enriched OBT and SCD-managed dimensional model.
-
-`FastAPI` `Azure Event Hubs` `Structured Streaming` `Lakeflow` `Delta Lake` `Unity Catalog` `Star Schema`
-
----
-
-### 🛰️ [NASA GCN Fermi Streaming Pipeline](https://github.com/AdarshDamarla-DataEngineer-Git/Kafka-Databricks-Nasa)
-
-OAuth-authenticated Kafka ingestion of NASA GCN Fermi gamma-ray burst notices. Native Spark transformations parse classic-text messages into a governed analytical snowflake schema.
-
-`NASA GCN` `Kafka` `OAuth 2.0` `PySpark` `Structured Streaming` `Databricks` `Snowflake Schema`
-
----
-
-### 🌬️ [Airflow + dbt + Databricks](https://github.com/AdarshDamarla-DataEngineer-Git/Airflow-DBT-Databricks)
-
-Apache Airflow 3 orchestrates a Databricks ingestion job and dependency-aware dbt model graph. The local platform uses CeleryExecutor, Redis, PostgreSQL, Docker Compose, and a deferrable Databricks operator.
-
-`Apache Airflow 3` `dbt` `Databricks` `Celery` `Redis` `PostgreSQL` `Docker`
-
----
-
-### 🛒 [E-commerce Databricks Pipeline](https://github.com/AdarshDamarla-DataEngineer-Git/Ecommerce-Databricks-Pipeline)
-
-Six e-commerce domains move through Bronze, Silver, and Gold layers with Auto Loader, declarative data-quality expectations, CDC, SCD Type 2 history, and an analytics-ready dimensional model.
-
-`Databricks` `Auto Loader` `Lakeflow` `CDC` `SCD2` `Delta Lake` `Data Quality`
-
----
-
-### 📦 [Olist Azure Big Data Platform](https://github.com/AdarshDamarla-DataEngineer-Git/BigDataProjects)
-
-Processes approximately 1.56 million Olist marketplace records from HTTP, SQL, and MongoDB sources. ADF and ADLS feed PySpark transformations, while Synapse Serverless SQL exposes curated Parquet through views and CETAS.
-
-`Azure Data Factory` `ADLS Gen2` `Azure Databricks` `PySpark` `MongoDB` `Synapse Serverless` `CETAS`
 
 ## Platform architecture
 
@@ -149,12 +116,9 @@ flowchart LR
 
 ## Currently strengthening
 
-- Automated data testing and pipeline observability
-- Databricks Asset Bundles and environment-based deployments
-- AWS and Google Cloud implementation depth through additional portfolio projects
-- Multi-cloud data-platform design, service mapping, and deployment patterns
-- CI/CD for cloud and Databricks data platforms
-- Performance tuning for Spark and Delta workloads
+- Automated data testing, pipeline observability, and operational reliability
+- CI/CD and environment-based deployment for Databricks and cloud data platforms
+- Spark and Delta Lake performance tuning
 
 ## Let's connect
 
