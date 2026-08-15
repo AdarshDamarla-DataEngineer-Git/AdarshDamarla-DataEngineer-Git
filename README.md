@@ -43,14 +43,13 @@ I design and build end-to-end cloud data platforms for reliable batch and real-t
 
 ## Platform architecture
 
-```mermaid
-flowchart LR
-    A["Sources<br/>SQL · Files · APIs · Events"] --> B["Ingestion & orchestration<br/>ADF · Airflow · Kafka"]
-    B --> C["Cloud storage<br/>ADLS · Object storage"]
-    C --> D["Processing<br/>Spark · PySpark · dbt"]
-    D --> E["Lakehouse<br/>Bronze · Silver · Gold"]
-    E --> F["Serving<br/>Facts · Dimensions · SQL · BI"]
-```
+<p align="center">
+  <img
+    src="assets/platform-architecture.png"
+    alt="Sources flow through ingestion, cloud storage, processing, lakehouse layers, and analytics serving"
+    width="100%"
+  />
+</p>
 
 ## Technical skills
 
