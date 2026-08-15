@@ -75,39 +75,15 @@ Processes approximately 1.56 million Olist marketplace records from HTTP, SQL, a
 
 `Azure Data Factory` `ADLS Gen2` `Azure Databricks` `PySpark` `MongoDB` `Synapse Serverless` `CETAS`
 
-## Cloud data engineering portfolio
+## Platform architecture
 
 ```mermaid
 flowchart LR
-    subgraph SOURCES["Sources"]
-        SQL["SQL databases"]
-        FILES["Files / APIs"]
-        EVENTS["Event streams"]
-    end
-
-    subgraph INGEST["Ingestion & orchestration"]
-        CLOUD_ETL["Cloud-managed ETL"]
-        AIRFLOW["Apache Airflow"]
-        AUTO["Incremental file ingestion"]
-    end
-
-    subgraph PROCESS["Processing"]
-        SPARK["Managed Spark + PySpark"]
-        DBT["dbt transformations"]
-    end
-
-    subgraph LAKEHOUSE["Lakehouse"]
-        MEDALLION["Bronze · Silver · Gold"]
-        STORAGE["Cloud object storage"]
-        DELTA["Open table formats"]
-    end
-
-    subgraph SERVE["Serving"]
-        MODEL["Facts · Dimensions · SCD"]
-        SQLBI["SQL · BI · Analytics"]
-    end
-
-    SOURCES --> INGEST --> PROCESS --> LAKEHOUSE --> SERVE
+    A["Sources<br/>SQL · Files · APIs · Events"] --> B["Ingestion & orchestration<br/>ADF · Airflow · Kafka"]
+    B --> C["Cloud storage<br/>ADLS · Object storage"]
+    C --> D["Processing<br/>Spark · PySpark · dbt"]
+    D --> E["Lakehouse<br/>Bronze · Silver · Gold"]
+    E --> F["Serving<br/>Facts · Dimensions · SQL · BI"]
 ```
 
 ## Technical skills
