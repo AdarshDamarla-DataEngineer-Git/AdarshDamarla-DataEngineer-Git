@@ -5,7 +5,6 @@
 <h1 align="center">Hi, I'm Adarsh Damarla 👋</h1>
 
 <p align="center">
-  <strong>Cloud & Big Data Engineer</strong><br/>
   Cloud Data Engineer building reliable batch, streaming, and lakehouse platforms that turn source data into analytics-ready models.
 </p>
 
@@ -33,7 +32,7 @@ I design and build end-to-end cloud data platforms for reliable batch and real-t
 | --- | --- | --- |
 | [🎧 Spotify Azure Incremental Lakehouse](https://github.com/AdarshDamarla-DataEngineer-Git/Spotify-Azure-Project) | Metadata-driven incremental ingestion from Azure SQL to ADLS Gen2; Auto Loader processing; SCD Type 2 dimensions and a Type 1 streaming fact | ADF, ADLS Gen2, Databricks, PySpark, Delta Lake |
 | [🚕 Real-Time Uber Ride Lakehouse](https://github.com/AdarshDamarla-DataEngineer-Git/Uber-Project) | Streams FastAPI-generated ride events through Event Hubs; unifies historical and real-time data; publishes an enriched OBT and SCD-managed dimensional model | FastAPI, Event Hubs, Structured Streaming, Lakeflow, Unity Catalog |
-| [🌬️ Airflow + dbt + Databricks](https://github.com/AdarshDamarla-DataEngineer-Git/Airflow-DBT-Databricks) | Airflow 3 orchestrates Databricks ingestion and a dependency-aware dbt graph using deferrable execution and a containerized Celery platform | Airflow, dbt, Databricks, Celery, Redis, PostgreSQL, Docker |
+| [🌬️ Airflow + dbt + Databricks](https://github.com/AdarshDamarla-DataEngineer-Git/Airflow-DBT-Databricks) | Airflow 3 orchestrates Databricks ingestion and a dependency-aware dbt graph using deferrable tasks and distributed Celery workers backed by Redis and PostgreSQL | Airflow, dbt, Databricks, Celery, Redis, PostgreSQL, Docker |
 | [🛰️ NASA GCN Fermi Streaming Pipeline](https://github.com/AdarshDamarla-DataEngineer-Git/Kafka-Databricks-Nasa) | OAuth-authenticated Kafka ingestion of NASA gamma-ray burst notices; native Spark parsing; governed analytical snowflake schema | Kafka, OAuth 2.0, PySpark, Databricks, Delta Lake |
 
 ### More portfolio work
@@ -57,64 +56,63 @@ flowchart LR
 
 ### Cloud platforms
 
-![AWS](https://img.shields.io/badge/Amazon%20Web%20Services-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon_Web_Services-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
-### AWS data services
+### Data processing and lakehouse
 
-![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
-![AWS Glue](https://img.shields.io/badge/AWS%20Glue-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Amazon EMR](https://img.shields.io/badge/Amazon%20EMR-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Amazon Redshift](https://img.shields.io/badge/Amazon%20Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white)
-![Amazon Kinesis](https://img.shields.io/badge/Amazon%20Kinesis-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge)
+![Unity Catalog](https://img.shields.io/badge/Unity_Catalog-1B3139?style=for-the-badge)
+![Lakeflow](https://img.shields.io/badge/Lakeflow-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 
-### Google Cloud data services
+### Streaming, orchestration, and transformation
 
-![Cloud Storage](https://img.shields.io/badge/Cloud%20Storage-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Azure Data Factory](https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Languages and data stores
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+### Cloud data services
+
+![ADLS Gen2](https://img.shields.io/badge/ADLS_Gen2-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Event Hubs](https://img.shields.io/badge/Azure_Event_Hubs-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Synapse Analytics](https://img.shields.io/badge/Synapse_Analytics-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![AWS Glue](https://img.shields.io/badge/AWS_Glue-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Amazon EMR](https://img.shields.io/badge/Amazon_EMR-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Amazon Redshift](https://img.shields.io/badge/Amazon_Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white)
+![Cloud Storage](https://img.shields.io/badge/Cloud_Storage-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Dataproc](https://img.shields.io/badge/Dataproc-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
 ![Pub/Sub](https://img.shields.io/badge/Pub%2FSub-AECBFA?style=flat-square&logo=googlecloud&logoColor=1A73E8)
-![Dataflow](https://img.shields.io/badge/Dataflow-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 
-### Azure data services demonstrated in projects
+### Engineering patterns
 
-![Azure Data Factory](https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![ADLS Gen2](https://img.shields.io/badge/ADLS%20Gen2-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Event Hubs](https://img.shields.io/badge/Event%20Hubs-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Synapse](https://img.shields.io/badge/Synapse%20Analytics-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Medallion Architecture](https://img.shields.io/badge/Medallion_Architecture-0F766E?style=flat-square)
+![Batch Processing](https://img.shields.io/badge/Batch_Processing-2563EB?style=flat-square)
+![Stream Processing](https://img.shields.io/badge/Stream_Processing-7C3AED?style=flat-square)
+![Incremental Loading](https://img.shields.io/badge/Incremental_Loading-0891B2?style=flat-square)
+![CDC](https://img.shields.io/badge/CDC-DB2777?style=flat-square)
+![SCD Type 1 & 2](https://img.shields.io/badge/SCD_Type_1_%26_2-C2410C?style=flat-square)
+![Dimensional Modeling](https://img.shields.io/badge/Dimensional_Modeling-4F46E5?style=flat-square)
+![Data Quality](https://img.shields.io/badge/Data_Quality-15803D?style=flat-square)
 
-`Multi-Cloud Data Architecture` · `Cloud Object Storage` · `Managed Spark` · `Serverless Warehousing` · `Event Streaming` · `Metadata-Driven Ingestion`
-
-### Databricks and distributed processing
-
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?style=flat-square)
-![Unity Catalog](https://img.shields.io/badge/Unity%20Catalog-1B3139?style=flat-square)
-![Lakeflow](https://img.shields.io/badge/Lakeflow-FF3621?style=flat-square&logo=databricks&logoColor=white)
-
-### Streaming and orchestration
-
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-### Languages, databases, and modeling
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-`Medallion Architecture` · `Dimensional Modeling` · `CDC` · `SCD Type 1/2` · `Data Quality` · `Incremental Loading` · `Star/Snowflake Schemas`
-
-## Currently strengthening
+## Current focus
 
 - Automated data testing, pipeline observability, and operational reliability
 - CI/CD and environment-based deployment for Databricks and cloud data platforms
