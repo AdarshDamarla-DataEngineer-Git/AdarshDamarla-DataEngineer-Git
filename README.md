@@ -30,6 +30,7 @@ I design and build end-to-end cloud data platforms for reliable batch and real-t
 
 | Project | Engineering highlights | Stack |
 | --- | --- | --- |
+| [☁️ Real-Time AWS E-commerce Lakehouse](https://github.com/AdarshDamarla-DataEngineer-Git/aws-ecommerce-streaming-lakehouse) | Streams e-commerce events through MSK Serverless and MSK Connect into S3; incrementally builds Bronze, Silver, and Gold layers with Glue and Delta Lake; publishes an SCD-managed star schema to Redshift Serverless | MSK Serverless, MSK Connect, S3, AWS Glue, PySpark, Delta Lake, Redshift Serverless |
 | [🎧 Spotify Azure Incremental Lakehouse](https://github.com/AdarshDamarla-DataEngineer-Git/Spotify-Azure-Project) | Metadata-driven incremental ingestion from Azure SQL to ADLS Gen2; Auto Loader processing; SCD Type 2 dimensions and a Type 1 streaming fact | ADF, ADLS Gen2, Databricks, PySpark, Delta Lake |
 | [🚕 Real-Time Uber Ride Lakehouse](https://github.com/AdarshDamarla-DataEngineer-Git/Uber-Project) | Streams FastAPI-generated ride events through Event Hubs; unifies historical and real-time data; publishes an enriched OBT and SCD-managed dimensional model | FastAPI, Event Hubs, Structured Streaming, Lakeflow, Unity Catalog |
 | [🌬️ Airflow + dbt + Databricks](https://github.com/AdarshDamarla-DataEngineer-Git/Airflow-DBT-Databricks) | Airflow 3 orchestrates Databricks ingestion and a dependency-aware dbt graph using deferrable tasks and distributed Celery workers backed by Redis and PostgreSQL | Airflow, dbt, Databricks, Celery, Redis, PostgreSQL, Docker |
